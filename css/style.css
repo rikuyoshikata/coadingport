@@ -1,5 +1,26 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 #toptitle{
     text-align: center;
     font-size: 65px;
+}
+body{
+    background-color: azure;
+    
+}
+body a{
+    text-decoration: none;
+}
+#headertitle{
+  font-family: 'Nabla', cursive;
+  font-palette: --h1;
+   font-size: 45px;
+
+}
+@font-palette-values --h1{
+  font-family: 'Nabla';
+  base-palette: 2;
+}
+p{
+    text-align: center;
 }
