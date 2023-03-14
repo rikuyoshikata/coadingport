@@ -1,0 +1,142 @@
+/* 全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* ナビゲーションバー */
+  nav {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0 20px;
+  }
+  
+  nav li {
+    font-size: 18px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ff0;
+  }
+  
+  /* 動画セクション */
+  .video-section {
+    margin: 50px 0;
+  }
+  
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .video-section p, .video-section ul {
+    margin: 20px 0;
+  }
+
+  
+  /* ポートフォリオセクション */
+  .portfolio-section {
+    margin: 50px 0;
+  }
+  
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .video-loading {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .video-loading svg {
+    width: 50px;
+    height: 50px;
+    animation: rotate 1s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  .toph1{
+    font-family: 'Nabla', cursive;
+    font-palette: --h1;
+  
+  }
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+
+    bottom: 0;
+    width: 100%;
+}
