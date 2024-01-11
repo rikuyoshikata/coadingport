@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta name="description" content="RadioStrikeの様々な配信プラットフォームを紹介するページです。">
+	
+	<script src="js/vue.js"></script>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/vuetify.min.css">
+	
+	<link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css" rel="stylesheet">
+	<title>配信サイトについて|RadioStrike公式サイト</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/favicon.ico">
+	<head prefix="og: http://ogp.me/ns#">
+
+		<meta name="og:url" content="https://www.rediostrike.com/stream.html">
+		
+		<meta name="og:title" content="配信サイトについて|RadioStrike公式サイト">
+		
+		<meta name="og:image" content="https://www.rediostrike.com/img/ogp.png">
+		
+		<meta name="og:description" content="RadioStrikeの様々な配信プラットフォームを紹介するページです。">
+		
+		<meta name="og:type" content="article">
+		<meta property="fb:app_id" content="305978515742410" />
+		<meta name="twitter:card" content="summary_large_image"/>
+
+		<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HJCSZE581Q"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'G-HJCSZE581Q');
+	</script>
+</head>
+<body>
+	<header>
+		<div id="app">
+			<v-app>
+				<div>
+					<v-app-bar>
+						<v-app-bar-nav-icon v-on:click.stop="drawer = !drawer" aria-label="ハンバーガーメニュー"></v-app-bar-nav-icon>
+						<img src="img/headerlogo.png" class="radiostrikelogoimg" alt="RadioStrikeのロゴ">
+					</v-app-bar>
+		
+					<v-navigation-drawer
+						v-model="drawer"
+						absolute
+						temporary
+					>
+					
+						<v-list>
+							<v-list-item-group>
+								<a href="index.html" class="nava"><v-list-item>ホーム</v-list-item></a>
+								<a href="otayori.html" class="nava"><v-list-item>お便りについて</v-list-item></a>
+								<a href="stream.html" class="nava"><v-list-item>配信サイトについて</v-list-item></a>
+								<a href="sns.html" class="nava"><v-list-item>SNSについて</v-list-item></a>
+								<a href="news.html" class="nava"><v-list-item>お知らせ</v-list-item></a>
+								<a href="blog.html" class="nava"><v-list-item>ブログ</v-list-item></a>
+								<a href="privacypolicy.html" class="nava"><v-list-item>プライバシーポリシー</v-list-item></a>
+								<a href="contact.php" class="nava"><v-list-item>お問い合わせ</v-list-item></a>
+								
+							</v-list-item-group>
+						</v-list>
+					</v-navigation-drawer>
+					<div class="container">
+						<h2>配信サイトのご紹介</h2>
+						<p>配信サイトの紹介です。<br>お好きな配信サイトを選んで聴いてください</p>
+						<p class="streamlogo"><a href="https://podcasts.apple.com/us/podcast/radiostrike/id1705335293" target="_blank"><img src="img/stream/ap.svg" class="streamlogoimg" alt="ApplePodcast"></a></p>
+					   <p class="streamlogo"><a href="https://podcasts.google.com/feed/aHR0cHM6Ly9yYWRpb3N0cmlrZS55b3NoaWthdGEtcmlrdS5uZXQvZmVlZC9wb2RjYXN0Lw?sa=X&ved=2ahUKEwjJuKruwZqCAxWfyDQHHbqfDkUQ9sEGegQIARAC" target="_blank"><img src="img/stream/gp.svg" class="streamlogoimg" alt="GooglePodcast"></a></p>
+					   <p class="streamlogo"><a href="https://music.youtube.com/playlist?list=PLx7Lve6KV912U_kxVjXS0U6gfFG1wT-CH" target="_blank"><img src="img/stream/ytm.svg" class="streamlogoimg" alt="YouTubeMusic"></a></p>
+					   <p class="streamlogo"><a href="https://open.spotify.com/show/7rOX6LqaJ9MORreXtuI2ko" target="_blank"><img src="img/stream/sp.png" class="streamlogoimg" alt="Spotify"></a></p>
+					   <p class="streamlogo"><a href="https://music.amazon.co.jp/podcasts/41e520c8-6c13-4ff1-9aee-2e0a39e21a60/radiostrike" target="_blank"><img src="img/stream/am.png" class="streamlogoimg" alt="AmazonMusic"></a></p>
+					   <p class="streamlogo"><a href="https://soundcloud.com/strike-radio/sets/radiostrike?si=210ac75e2789417ca3fef76436bc4c27&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank"><img src="img/stream/sc.png" class="streamlogoimg" alt="SouncCloud"></a></p>
+				</div>
+				<v-footer>
+					<!--フッター内容-->
+					
+					<p>&copy 2023-2024 RadioStrike All right Reserved.</p>
+			 </v-footer>
+			</v-app>
+		</div>
+		
+		<script src='js/polyfill.min.js'></script>
+		<script src='js/vue.js'></script>
+		<script src='js/vuetify.min.js'></script>
+		<script src="js/script.js"></script> 
+</body>
+</html>

@@ -1,0 +1,5 @@
+User-Agent:*
+Disallow: /wp/
+Disallow: /blog/
+Disallow: /error/
+Sitemap:https://www.rediostrike.com/sitemap.xml
